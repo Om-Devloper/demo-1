@@ -7,9 +7,15 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  font-family: poppins,Sans-serif;
+}
+.heading{
+  color: #353738;
+  font-weight: 600;
+  font-size: 50px;
 }
 
-.bgDarkBlue{
+.headerbgDarkBlue{
   background-color: #000000;
 }
 
@@ -44,6 +50,12 @@ html, body {
 #horizontalNav .navbar-toggler:focus {
   outline-color: #ffffff;
 }
+@media (min-width:1185) {
+  .imgBg{
+    width: 100%;
+  }
+  
+}
 
 @media (min-width: 992px) {
   #horizontalNav .navbar-brand {
@@ -66,32 +78,5 @@ html, body {
   }
   #horizontalNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-  }
-}
-
-section.resume-section {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
-}
-section.resume-section .resume-section-content {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-}
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 }
